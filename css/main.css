@@ -1,0 +1,65 @@
+.logo {
+    font-family: 'Playfair Display SC';
+}
+.logo img {
+    width: 55px;
+    height: auto;
+    margin-right: 10px;
+}
+.loader-color{
+    border-color: #9c27b0;
+}
+.float-center{
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;   
+}
+
+.news-card{
+    border: 1px dotted #DDDDDD;
+    margin-bottom: 55px;
+    padding: 20px !important;
+    background-color: #FCFCFC;
+}
+.news-card .title {
+    font-size: 1.2rem;
+    font-family: 'Playfair Display SC';
+}
+.news-card .description {
+    font-family: 'Times New Roman', Times, serif;
+}
+.news-card .meta {
+    font-size: 0.8rem;
+}
+.dotted-divider {
+    border-bottom: 1px dotted #898989;
+}
+.news-card img{
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(119,119,119,1);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(119,119,119,1);
+    box-shadow: 1px 1px 1px 0px rgba(119,119,119,1);
+}
+.news-card a {
+    margin-top: 30px;
+}
+.card-listing-enter-to, .card-listing-leave{
+    opacity: 1;
+}
+.card-listing-enter-active{
+    transition: opacity 250ms ease-in;
+}
+.card-listing-leave-active{
+    transition: opacity 100ms ease-in;
+}
+.card-listing-enter, .card-listing-leave-to{
+    opacity: 0;
+}
+.fetch-button {
+    margin-top: 30px;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #9c27b0 !important;
+    box-shadow: 0 1px 0 0 #9c27b0 !important;
+}
